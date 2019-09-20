@@ -1,17 +1,20 @@
-*/config/development
-*/logs/log-*.php
-!*/logs/index.html
+.DS_Store
+# framework files
+#-------------------------
+*/logs/*
 */cache/*
-!*/cache/index.html
-!*/cache/.htaccess
+*/vendor/
+*/composer.lock
 
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+*.sublime-project
 
-#codeigniter 3
-application/logs/*
-!application/logs/index.html
-!application/logs/.htaccess
-/vendor/

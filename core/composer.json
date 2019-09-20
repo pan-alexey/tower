@@ -1,0 +1,15 @@
+{
+    "name": "Tower",
+    "description": "Web application framework ",
+    "license": "MIT",
+    "authors": [{
+        "name": "Pan Alexey",
+        "email": "pan-alexey@live.com"
+    }],
+    "minimum-stability": "stable",
+    "require": {
+        "workerman/workerman": "^3.5",
+        "react/event-loop": "^1.1",
+        "react/http": "^0.8.4"
+    }
+}

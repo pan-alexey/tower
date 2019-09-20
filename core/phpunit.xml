@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/5.7/phpunit.xsd"
+         bootstrap="bootstrap.php"
+         backupGlobals="true"
+         colors="true"
+         beStrictAboutCoversAnnotation="true"
+         beStrictAboutOutputDuringTests="true"
+         beStrictAboutTestsThatDoNotTestAnything="true"
+         beStrictAboutTodoAnnotatedTests="true"
+         verbose="true">
+         
+    <testsuites>
+        <testsuite name="core">
+            <directory suffix=".php">tests</directory>
+            <exclude>tests/exclude</exclude>
+            <exclude>tests/fixture</exclude>
+        </testsuite>
+    </testsuites>
+
+    <testsuites>
+        <testsuite name="app">
+            <directory suffix=".php">../app/tests</directory>
+            <exclude>../app/tests/exclude/</exclude>
+        </testsuite>
+    </testsuites>
+
+
+</phpunit>
