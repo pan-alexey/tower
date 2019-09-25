@@ -10,7 +10,7 @@ define('ROOT_PATH', realpath(dirname(__FILE__).DIRECTORY_SEPARATOR.'..').DIRECTO
 if( file_exists(CORE_PATH.'vendor/autoload.php')  ){
     require CORE_PATH.'vendor/autoload.php'; 
 }
-require CORE_PATH.'source/autoload.php'; 
-// $autoload = new Tower\Autoloader;
-// $autoload->addNamespace('Tower', COREPATH);
-// $autoload->register();
+require CORE_PATH.'autoload.php'; 
+$autoload = new Tower\Autoloader;
+$autoload->addNamespace('Tower', CORE_PATH);
+$autoload->register();
