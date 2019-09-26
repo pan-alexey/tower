@@ -1,2 +1,9 @@
 <?php
-include './tower/workers/Http.php';
+
+if (!defined("STDIN")) {
+    include './tower/http.php';
+}else{
+    include './tower/console.php';
+}
+
+
