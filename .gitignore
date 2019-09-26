@@ -1,7 +1,9 @@
 .DS_Store
 # framework files
 #-------------------------
+*/tmp/*
 */logs/*
+
 */cache/*
 */vendor/
 */composer.lock
