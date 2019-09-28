@@ -12,7 +12,7 @@ $server = new \Tower\Source\Http\Server([
 ]);
 
 
-$app = "";
+$tower = "";
 
 
 $server->request( function($varibles) use ($app){
