@@ -1,14 +1,21 @@
 <?php
 
 
+
+$_["db"]['master'] = [];
+$_["db"]['slave'][] = [];
+
+
+
 // Master/Slave 
 $_["*"]["master"] = [
     "host" => "localhost",
-    "driver" => 'mysqli', // mssql / pgsql / oci8
+    "driver" => 'mysql', // mssql / mysql / oci8 / pgsql / sqilite
     "user" => "tower",
     "password" => "789789",
     'database' => 'tower',
 ];
+
 
 $_["*"]['slave'][] = [
     "" => "",
