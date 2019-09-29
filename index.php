@@ -1,7 +1,7 @@
 <?php
 
 if (!defined("STDIN")) {
-    include './tower/http.php';
+    include './tower/server.php';
 }else{
     include './tower/console.php';
 }

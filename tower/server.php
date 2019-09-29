@@ -15,10 +15,11 @@ $server = new \Tower\Source\Http\Server([
 $tower = "";
 
 
-$server->request( function($varibles) use ($app){
+$server->request( function($varibles) use ($tower){
     
 
     ob_start();
+    echo __FILE__;
     echo "<pre>";
     print_r($varibles);
     echo "</pre>";
