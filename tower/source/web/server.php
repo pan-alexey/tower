@@ -1,5 +1,5 @@
 <?php
-namespace Tower\Source\Http;
+namespace Tower\Source\Web;
 
 
 class Server
