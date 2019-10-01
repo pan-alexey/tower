@@ -3,7 +3,19 @@
 $_[':default'] = [
     "public" => "www",
     "controller" => "home",
+    "method" => 'index',
 ];
+
+$_[':404'] = [
+    "public" => "www",
+    "controller" => "error",
+    "method" => '{404}',
+];
+
+
+
+
+
 
 $_['www.domain.{domain}/'] = [
     "public" => "domain"
