@@ -1,5 +1,5 @@
 <?php
-include "bootstrap.php";
+include __DIR__."/../bootstrap.php";
 
 //SERVER GLOBALS
 $server = new \Tower\Source\Http\Server([

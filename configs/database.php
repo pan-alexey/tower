@@ -15,8 +15,6 @@ $_["*"]["master"] = [
     "password" => "789789",
     'database' => 'tower',
 ];
-
-
 $_["*"]['slave'][] = [
     "" => "",
     "host" => "localhost",
@@ -24,11 +22,6 @@ $_["*"]['slave'][] = [
     "password" => "789789",
     'database' => 'tower_1'
 ];
-
-
-
-
-
 
 // Multi Master
 $_["*"]["master:1"] = [
